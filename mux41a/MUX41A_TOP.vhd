@@ -42,7 +42,7 @@ architecture usecase of mux41A_TOP is
 						when "1011" => y <= b;
 						when "1101" => y <= c;
 						when "1110" => y <= d;
-					when others => null;
+						when others => null；
 				end case;
 				end process;
 		end usecase;
