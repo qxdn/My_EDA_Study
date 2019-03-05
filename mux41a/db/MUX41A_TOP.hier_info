@@ -1,0 +1,16 @@
+|MUX41A_TOP
+s0_4[3] => Mux0.IN15
+s0_4[3] => Mux1.IN19
+s0_4[2] => Mux0.IN14
+s0_4[2] => Mux1.IN18
+s0_4[1] => Mux0.IN13
+s0_4[1] => Mux1.IN17
+s0_4[0] => Mux0.IN12
+s0_4[0] => Mux1.IN16
+a => Mux0.IN16
+b => Mux0.IN17
+c => Mux0.IN18
+d => Mux0.IN19
+Y <= Y$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
