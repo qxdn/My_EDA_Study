@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity cnt_74ls160 is
+	port 
+	(
+		rst_n  :		in std_logic;
+		clk	 :		in std_logic;
+		pe_te	 : 	in std_logic_vector(1 downto 0);
+		load_n :		in std_logic;
+		D		 :		in std_logic_vector(3 downto 0); --数据输入
+		
+		C		 :		out std_logic; --进位
+		Q		 :		buffer integer range (9 downto 0)
+	);
+end entity;
+
+architecture bhv of cnt_74ls160 is
+	begin
+		process(rst_n,clk,pe_te,load_n)
+			begin
+				if(rst_n='0') then Q<=0;
+				elsif (clk'event and clk='1') then
+					if(load_n='0')		then		Q<=D;
+					elsif(pe_te="00") then		Q<=Q+1;
+					end if;
+				end if;
+			end process;
+	end bhv;

@@ -1,0 +1,20 @@
+|f_addr
+a => process_0.IN0
+a => process_0.IN0
+a => process_0.IN0
+a => process_0.IN0
+b => process_0.IN1
+b => process_0.IN1
+b => process_0.IN1
+b => process_0.IN1
+c => process_0.IN1
+c => process_0.IN1
+c => process_0.IN1
+c => process_0.IN1
+c => process_0.IN1
+c => process_0.IN1
+c => process_0.IN1
+so <= so.DB_MAX_OUTPUT_PORT_TYPE
+co <= co.DB_MAX_OUTPUT_PORT_TYPE
+
+

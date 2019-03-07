@@ -1,0 +1,29 @@
+|cnt_74ls160
+rst_n => C~reg0.ACLR
+rst_n => Q[0].ACLR
+rst_n => Q[1].ACLR
+rst_n => Q[2].ACLR
+rst_n => Q[3].ACLR
+clk => C~reg0.CLK
+clk => Q[0].CLK
+clk => Q[1].CLK
+clk => Q[2].CLK
+clk => Q[3].CLK
+pe_te[0] => Equal0.IN3
+pe_te[1] => Equal0.IN2
+load_n => Q.OUTPUTSELECT
+load_n => Q.OUTPUTSELECT
+load_n => Q.OUTPUTSELECT
+load_n => Q.OUTPUTSELECT
+load_n => C.OUTPUTSELECT
+D[0] => Q.DATAB
+D[1] => Q.DATAB
+D[2] => Q.DATAB
+D[3] => Q.DATAB
+C <= C~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q_out[0] <= Q[0].DB_MAX_OUTPUT_PORT_TYPE
+Q_out[1] <= Q[1].DB_MAX_OUTPUT_PORT_TYPE
+Q_out[2] <= Q[2].DB_MAX_OUTPUT_PORT_TYPE
+Q_out[3] <= Q[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
