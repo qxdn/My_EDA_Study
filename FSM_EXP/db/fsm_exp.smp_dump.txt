@@ -1,0 +1,8 @@
+
+State Machine - |FSM_EXP|c_st
+Name c_st.s4 c_st.s3 c_st.s2 c_st.s1 c_st.s0 
+c_st.s0 0 0 0 0 0 
+c_st.s1 0 0 0 1 1 
+c_st.s2 0 0 1 0 1 
+c_st.s3 0 1 0 0 1 
+c_st.s4 1 0 0 0 1 

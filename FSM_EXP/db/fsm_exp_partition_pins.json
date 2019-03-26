@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "comb_outputs[0]",
+					"strict" : false
+				},
+				{
+					"name" : "comb_outputs[1]",
+					"strict" : false
+				},
+				{
+					"name" : "comb_outputs[2]",
+					"strict" : false
+				},
+				{
+					"name" : "comb_outputs[3]",
+					"strict" : false
+				},
+				{
+					"name" : "state_inputs[1]",
+					"strict" : false
+				},
+				{
+					"name" : "state_inputs[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

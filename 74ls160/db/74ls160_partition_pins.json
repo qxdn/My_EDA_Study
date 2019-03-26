@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "C",
+					"strict" : false
+				},
+				{
+					"name" : "Q_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "load_n",
+					"strict" : false
+				},
+				{
+					"name" : "pe_te[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pe_te[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

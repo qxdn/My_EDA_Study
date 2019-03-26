@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity FSM_EXP is
+	port
+	(
+	clk,reset		:in 	std_logic;
+	state_inputs	:in 	std_logic_vector(0 to 1);
+	comb_outputs   :out	integer range 0 to 15;
+	);
+end FSM_EXP;
+
+architecture behv of FSM_EXP is
+	type FSM_ST is (s0,s1,s2,s3,s4);  --定义数据类型
